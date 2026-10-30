@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bob | Oil & Gas Procurement Advisor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="app-wrapper">
+    <div class="container">
+      <header class="chat-header">
+        <div class="header-brand">
+          <div class="avatar-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L8 22M12 2L16 22M4 22H20M9.5 9H14.5M8.5 15H15.5M12 2V6"/>
+              <circle cx="12" cy="4" r="2" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="header-info">
+            <div class="title-row">
+              <h1>Bob — O&amp;G Procurement Advisor</h1>
+              <span class="status-pill"><span class="status-dot"></span>Online</span>
+            </div>
+            <p class="subtitle">100 Years Exp. • Upstream, Midstream &amp; Downstream • Category Strategy &amp; Indexing</p>
+          </div>
+        </div>
+      </header>
+
+      <div class="advisor-banner">
+        <strong>Welcome! I'm Bob.</strong> I specialize in oil &amp; gas procurement, vendor sourcing, category strategy, and pricing indices (S&amp;P, Rystad). Please keep inquiries strictly on oil &amp; gas. <em>Note: Guidance is advisory only.</em>
+      </div>
+
+      <div id="chat-box" class="chat-box"></div>
+
+      <form id="chat-form">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Ask Bob about O&G procurement, category strategy, vendors, or market indices..."
+          autocomplete="off"
+          required
+        />
+        <button type="submit" id="send-btn">
+          <span>Send</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
